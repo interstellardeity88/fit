@@ -1,0 +1,158 @@
+@media screen and (max-width: 960px){
+    .header{
+        &__logo{
+           
+           padding-left: 10px;
+        }
+        &__contacts{
+            padding-right: 10px;
+        }
+    }
+
+    .promo{
+        &__wrapper{
+            padding-right: 10px;
+        }
+    }
+}
+
+@media screen and (max-width:678px){
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+
+        // &__logo{
+        //     img{
+        //         width: 40%;
+                
+        //     }
+        // }
+
+        &__official{
+            //display: inline-block;
+            font-size: 18px;
+            padding-right: 10px;
+            
+            span{
+                display: block;
+                font-size: 20px;
+            }
+        }
+
+        &__contacts{
+            margin: 0 auto;
+            padding-top: 25px;
+            button{
+                margin-top: 10px;
+                width: 200px;
+            }
+        }
+
+        &__phone{
+            font-size: 25px;
+        }
+    }
+
+    .promo{
+        &__wrapper{
+            align-items: center;
+        }
+
+        &__header{
+            font-size: 35px;
+        }
+        &__subheader{
+            font-size: 22px;
+        }
+
+    }
+
+    .priv{
+        &__icons{
+            display: block;
+            position: relative;
+        }
+
+        &__icon{
+            
+            display: flex;
+            flex-wrap: wrap;
+            
+            p{
+                padding-left: 125px;
+                text-align: left;
+            }
+            img{
+                float: left;
+                position: absolute;
+                margin-top: 54px;
+            }
+
+        }
+
+        &__subheader{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+}
+
+@media screen and (max-width:526px){
+    .header{
+        display: block;
+        &__logo{
+            img{
+                width: 60%;
+            }
+        }
+
+        &__official{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+            span{
+
+                padding-left: 10px;
+                padding-bottom: 1px;
+
+            }
+        }
+    }
+
+    .priv{
+        &__subheader{
+            margin: 0;
+            padding-left: 125px;
+        }
+    }
+}    
+
+@media screen and (max-width:480px){
+    .header{
+        &__official{
+            font-size: 15px;
+            span{
+                padding-top: 4px;
+                font-size: 16px;
+                padding-bottom: 3px;
+            }
+        }
+
+    }
+
+    .promo{
+        &__header{
+            font-size: 30px;
+        }
+
+        &__subheader{
+            font-size: 19px;
+        }
+    }
+}
+
+
+    
