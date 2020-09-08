@@ -14,6 +14,22 @@
             padding-right: 10px;
         }
     }
+
+    .feed-form{
+        padding-left: 10px;
+    }
+
+    
+
+    .consultation{
+        &__descr{
+            padding-left: 10px;
+        }
+        .title_left{
+            padding-left: 10px;
+            font-size: 30px;
+        }
+    }
 }
 
 @media screen and (max-width:678px){
@@ -97,6 +113,13 @@
         }
     }
 
+    .consultation{
+
+        .title_left{
+        
+            font-size: 25px;
+        }
+    }    
 }
 
 @media screen and (max-width:526px){
@@ -128,6 +151,22 @@
             padding-left: 125px;
         }
     }
+
+    .consultation{
+
+        &__descr{
+            font-size: 17px;
+            
+            padding-top: 29px;
+        }    
+
+        .title_left{
+        
+            font-size: 20px;
+        }
+
+       
+    }    
 }    
 
 @media screen and (max-width:480px){
@@ -197,6 +236,22 @@
             display: none;
         }
     }
+
+    .consultation{
+
+        &__descr{
+            font-size: 15px;
+            
+            padding-top: 20px;
+        }    
+
+        .title_left{
+        
+            font-size: 15px;
+        }
+
+       
+    }    
 }    
 
 @media screen and (max-width:388px){
