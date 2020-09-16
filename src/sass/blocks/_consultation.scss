@@ -18,3 +18,71 @@
         padding-top: 80px;
     }
 }
+
+
+@media screen and (max-width: 960px){
+     
+
+    .consultation{
+        &__descr{
+            padding-left: 10px;
+        }
+        .title_left{
+            padding-left: 10px;
+            font-size: 30px;
+        }
+    }
+}
+
+
+@media screen and (max-width:678px){
+  
+
+    .consultation{
+
+        .title_left{
+        
+            font-size: 25px;
+        }
+    }    
+}
+
+@media screen and (max-width:526px){
+
+    .consultation{
+
+        &__descr{
+            font-size: 17px;
+            
+            padding-top: 29px;
+        }    
+
+        .title_left{
+        
+            font-size: 20px;
+        }
+
+       
+    }    
+}    
+
+
+@media screen and (max-width:422px){
+
+
+    .consultation{
+
+        &__descr{
+            font-size: 15px;
+            
+            padding-top: 20px;
+        }    
+
+        .title_left{
+        
+            font-size: 15px;
+        }
+
+       
+    }    
+}    
