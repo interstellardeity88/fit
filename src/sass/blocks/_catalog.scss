@@ -58,6 +58,8 @@
         padding: 20px 20px 26px 20px;
         overflow: hidden;
         margin-bottom: 20px;
+       
+
         
         &__img{
             display: block;
@@ -193,3 +195,50 @@
         
     }
 }
+
+@media screen and (max-width:980px){
+
+    .catalog{
+
+        &__content{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+}
+
+@media screen and (max-width:883px){
+
+    .catalog{
+
+        &__content{
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: space-around;
+        }
+    }
+}
+
+@media screen and (max-width:754px){
+
+    .catalog{
+        &__tabs{
+            margin-top: 40px;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__tab{
+            margin-bottom: 20px;
+        }
+    }       
+}    
+
+@media screen and (max-width:420px){
+
+    .catalog{
+        .title{
+            font-size: 23px;
+        }
+    }
+}        

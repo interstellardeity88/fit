@@ -31,7 +31,6 @@
 }
 
 
-
 @media  screen and (max-width:1080px){
     .carousel{
         .prev{
@@ -47,19 +46,59 @@
 @media  screen and (max-width:900px){
     .carousel{
 
-        .tns-item{ 
+        &__slider{ 
             img {
                 
                 width: 75%;
+                margin: 0 auto;
         }
         }
 
-        .prev{
-            display: none;
-        }
-
-        .next{
-            display: none;
-        }
+       
     }
 }
+
+@media  screen and (max-width:780px){
+    .carousel{
+
+        &__slider{ 
+            width: 681px;
+        }
+    }
+}            
+
+@media  screen and (max-width:680px){
+    .carousel{
+
+        &__slider{ 
+            width: 444px;
+        }
+    }
+} 
+
+@media screen and (max-width: 446px){
+    .carousel{
+
+        &__slider{ 
+            width: 420px;
+        }
+    }
+} 
+
+@media screen and (max-width: 420px){
+    .carousel{
+
+        &__slider{ 
+            width: 399px;
+        }
+    }
+} 
+
+@media screen and (max-width: 400px){
+    .carousel{
+
+        &__slider{ 
+            width: 350px;
+        }
+    }
+} 

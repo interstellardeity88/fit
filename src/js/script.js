@@ -9,10 +9,10 @@ $(document).ready(function(){
           
           responsive: [
               {
-                breakpoint: 768,
+                breakpoint: 880,
                 settings: {
                   
-                  dots: true, 
+                  dots: false, 
                   arrows: false
                 }
               }
