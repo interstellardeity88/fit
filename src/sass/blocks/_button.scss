@@ -8,6 +8,9 @@
     font-weight: 500;
     text-transform: uppercase;
     color: #ffffff;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
 
     &_main{
         width: 300px;
@@ -30,6 +33,36 @@
         height: 40px;
         font-size: 14px;
         font-weight: 400;
+    }
+
+    &:hover, &:focus{
+        filter: brightness(1.25);
+        outline: none;
+
+    }
+
+    &::before, &::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -200px;
+        width: 60px;
+        height: 100%;
+        background: #fff;
+        filter: blur(40px);
+        transform: skewX(-30deg);
+    }
+
+    &:hover::before, &:focus::before{
+        left: calc(100% + 150px) ;
+        transition: 1.5s;
+
+    }
+
+    &:hover::after, &:focus::after{
+        left: calc(100% + 150px) ;
+        transition: 1.5s 0.5s;
+
     }
 
     
