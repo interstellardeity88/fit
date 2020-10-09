@@ -17,7 +17,17 @@
         font-weight: 500;
         padding-top: 80px;
     }
+
+    .error{
+        border: 1px solid red;
+    }
+
+    label.error{
+        border: none;
+        color: #fff;
+    }
 }
+
 
 
 @media screen and (max-width: 960px){

@@ -66,3 +66,31 @@
             $('.overlay, #order').fadeIn('slow');
         });
     });
+
+//forms    
+
+
+    function validateForm(form){
+        $(form).validate({
+            rules: {
+                name: "required",
+                phone: "required",
+                email: {
+                    required: true,
+                    email: true
+                }
+            },
+            messages: {
+                name: "Пожалуйста, введите имя",
+                phone: "Пожалуйста, введите телефон",
+                email: {
+                  required: "Пожалуйста, введите свою почту",
+                  email: "Ваш адрес должен быть в формате name@domain.com"
+                }
+              }
+        });
+    }
+
+    validateForm('#consultation-form');
+    validateForm('#consultation form');
+    validateForm('#order form');
