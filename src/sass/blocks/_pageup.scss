@@ -1,0 +1,47 @@
+.pageup{
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 100%;
+    img{
+        width: 100%;
+    }
+
+
+    &:hover, &:focus{
+        filter: brightness(1.25);
+        outline: none;
+
+    }
+
+    &::before, &::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -200px;
+        width: 60px;
+        height: 100%;
+        background: #fff;
+        filter: blur(40px);
+        transform: skewX(-30deg);
+    }
+
+    &:hover::before, &:focus::before{
+        left: calc(100% + 150px) ;
+        transition: 1.5s;
+
+    }
+
+    &:hover::after, &:focus::after{
+        left: calc(100% + 150px) ;
+        transition: 1.5s 0.5s;
+
+    }
+
+}

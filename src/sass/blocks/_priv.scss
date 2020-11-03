@@ -22,6 +22,14 @@
             height: 70px;
             width: 70px;
         }
+
+        &_animation{
+            animation: heartbeat 2s ease infinite ;
+            
+            &:hover{
+                animation-play-state: paused;
+            }
+        }
     }
 
   
