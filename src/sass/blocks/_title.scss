@@ -17,3 +17,20 @@
         text-transform: capitalize;
     }
 }
+
+@media screen and (max-width:500px){
+    .title{
+        &_test{
+            display: block;
+            
+            text-align: center;
+        }
+    }
+
+}
+
+@media screen and (max-width:385px){
+    .title{
+        font-size: 25px;
+    }
+}    

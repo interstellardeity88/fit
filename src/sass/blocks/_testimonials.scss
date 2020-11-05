@@ -61,3 +61,21 @@
             
     }
 }
+
+@media screen and (max-width:500px){
+    .testimonials{
+        &__item{
+            display: block;
+            img{
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        &__descr{
+            text-align: center;
+            margin-right: 5px;
+            margin-left: auto;
+    
+        }
+    }
+}
